@@ -14,7 +14,7 @@ export const getStudentInfo = async (req, res) => {
   
   // Mock data - replace with Firebase later
   const mockStudentData = {
-    name: "Juan Dela Cruz",
+    name: "Lans Lorence Hernandez",
     studentId: studentId,
     points: 150,
     lastUsed: "2025-10-20"

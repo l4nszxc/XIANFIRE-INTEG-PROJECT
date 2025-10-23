@@ -64,7 +64,7 @@
         .info-row {
             display: flex;
             justify-content: space-between;
-            color: #059669;
+            color: #000000ff;
             font-family: 'Courier New', monospace;
             font-size: 16px;
             margin-bottom: 10px;
@@ -92,14 +92,14 @@
         }
         
         .points-label {
-            color: #059669;
+            color: #000000ff;
             font-family: 'Courier New', monospace;
             font-size: 14px;
             margin-bottom: 5px;
         }
         
         .points-value {
-            color: #059669;
+            color: #000000ff;
             font-family: 'Courier New', monospace;
             font-size: 32px;
             font-weight: bold;
@@ -343,12 +343,12 @@
             <div class="socket-selection">
                 <div class="socket-btn active" onclick="selectSocket(1)">
                     <div class="socket-icon">🔌</div>
-                    <div class="socket-name">Socket 1</div>
+                    <div class="socket-name">Universal Charger</div>
                     <div class="socket-status">Available</div>
                 </div>
                 <div class="socket-btn" onclick="selectSocket(2)">
                     <div class="socket-icon">🔌</div>
-                    <div class="socket-name">Socket 2</div>
+                    <div class="socket-name">Own Charger</div>
                     <div class="socket-status">Available</div>
                 </div>
             </div>
